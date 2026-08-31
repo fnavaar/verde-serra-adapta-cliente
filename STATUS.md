@@ -10,5 +10,6 @@
 - **Estado da task:** implementação concluída tecnicamente; aguardando teste humano.
 - **Validação automática:** Skip QA passou em setup, análise estática, build, integrações e testes.
 - **Rotas implementadas:** `/`, `/hoteis`, `/hoteis/:slug` e 404.
-- **Escopo implementado:** catálogo com 80 hotéis públicos, busca, filtros por categoria/região, detalhes e CTA de reserva inerte.
-- **Próxima ação:** Manoela executar o teste humano no preview e informar se funcionou.
+- **Escopo implementado:** catálogo com 80 hotéis públicos, busca por nome/cidade/UF/estado/região ampla/região turística, filtros por categoria/região, detalhes e CTA de reserva inerte.
+- **Busca verificada:** `Serra Gaúcha`, `Serra Fluminense`, `RS` e `São Paulo` retornaram resultados esperados no preview.
+- **Próxima ação:** Manoela executar o teste humano do catálogo e da busca ampliada no preview e informar se funcionou.
