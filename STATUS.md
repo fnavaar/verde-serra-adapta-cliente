@@ -10,6 +10,6 @@
 - **Evidência F1-T01:** catálogo com 80 hotéis, busca por nome/cidade/UF/estado/região ampla/região turística, filtros, detalhes, 404 e CTA de reserva inerte; QA e teste humano aprovados.
 - **Próxima task:** F1-T02 — Confirmar Skip/RBAC; decisão vigente: Manoela Poroger = Gestor; Monica Valladão, Rubens Regis e Priscila Bentes = usuários comuns.
 - **Escopo F1-T02:** provisionamento administrativo sem senha compartilhada, com ativação individual pelo fluxo nativo de definição ou recuperação de senha.
-- **Estado F1-T02:** bloqueada tecnicamente após autorização; busca final confirmou que não há ferramenta MCP para criar migration, alterar a coleção auth, adicionar papel ou provisionar usuários/convites.
+- **Estado F1-T02:** bloqueada após confirmação final e tentativa autorizada; a busca final confirmou que não há ferramenta MCP executável para criar migration, alterar a coleção auth, adicionar papel ou provisionar usuários/convites.
 - **Segurança:** nenhuma conta, senha, token ou permissão foi criada ou exposta.
 - **Gate:** disponibilizar capacidade administrativa executável do Skip Cloud para alterar auth e provisionar/ativar contas; não contornar via frontend.
