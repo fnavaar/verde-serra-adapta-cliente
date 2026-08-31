@@ -8,3 +8,4 @@
 - F1-T01 aguarda autorização explícita para implementação; nenhuma implementação foi realizada.
 - Projeto Skip `Circuito Elegante` criado com projectId 54747 e Skip Cloud em execução; F1-T01 autorizada e iniciada no projeto.
 - F1-T01 implementada tecnicamente no Skip versão 0.0.2: catálogo público com 80 hotéis, busca, filtros, detalhes, 404 e CTA de reserva inerte. QA e preview passaram; aguardando teste humano de Manoela.
+- Ajuste da F1-T01 implementado no Skip versão 0.0.3: busca por cidade, UF/estado, região ampla e regiões turísticas. Preview validado com `Serra Gaúcha`, `Serra Fluminense`, `RS` e `São Paulo`; QA passou; aguardando teste humano de Manoela.
