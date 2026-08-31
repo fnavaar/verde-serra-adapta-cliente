@@ -8,6 +8,6 @@
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: pendente
-- ultima_acao: tentativa autorizada; busca de ferramentas confirmou ausência de operação executável para criar migration, alterar coleção auth, adicionar papel Gestor ou provisionar convites/usuários
+- ultima_acao: capacidade administrativa procurada após confirmação final; não há ferramenta MCP executável para migration, schema auth, papel Gestor, provisionamento ou convite; nenhum arquivo do Skip foi alterado
 - proxima_acao: disponibilizar capacidade administrativa executável do Skip Cloud para schema auth, provisionamento e ativação individual
-- atualizado_em: 2026-08-31T12:18:00-03:00
+- atualizado_em: 2026-08-31T12:20:00-03:00
