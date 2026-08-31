@@ -3,11 +3,11 @@
 - task_id: F1-T01
 - champion: Manoela — Sócia
 - spec: 04_fase-atual/specs/spec-1-001-catalogo-publico.md
-- etapa: aguardando_teste_humano
-- autorizacao_implementacao: confirmada em 2026-08-31; Priscila autorizou implementar F1-T01 e criar o projeto Skip Circuito Elegante
+- etapa: implementando
+- autorizacao_implementacao: confirmada em 2026-08-31; Priscila autorizou implementar F1-T01 e, em nova mensagem, autorizou ajuste da busca por estado, cidade e regiões turísticas
 - teste_humano: pendente
-- verificacao_automatica: passou — Skip QA setup/static/build/integrations/test; preview validado para catálogo, busca, detalhe, 404 e CTA inerte
+- verificacao_automatica: pendente
 - aprendizado: pendente
-- ultima_acao: catálogo público implementado no projeto Skip Circuito Elegante, versão 0.0.2, e validado no preview
-- proxima_acao: Manoela executar o teste humano do catálogo no preview e informar se funcionou
-- atualizado_em: 2026-08-31T11:40:00-03:00
+- ultima_acao: ajuste autorizado para ampliar a busca do catálogo no projeto Skip Circuito Elegante
+- proxima_acao: implementar busca por estado, cidade, região ampla e região turística
+- atualizado_em: 2026-08-31T11:44:00-03:00
