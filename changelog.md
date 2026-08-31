@@ -14,3 +14,4 @@
 - 2026-08-31 · Priscila · Matriz de papéis recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor. F1-T02 continua bloqueada porque não há mecanismo seguro aprovado para provisionar contas e papéis sem expor credenciais; nenhuma alteração foi feita no Skip.
 - 2026-08-31 · Priscila · Decisão revisada: Monica, Rubens, Priscila e Manoela serão usuários comuns, sem Admin ou Gestor. F1-T02 aguarda autorização de implementação do cadastro seguro, sem criação de contas ou credenciais nesta etapa.
 - 2026-08-31 · Priscila · Matriz final: Manoela Poroger = Gestor; Monica Valladão, Rubens Regis e Priscila Bentes = usuários comuns. F1-T02 permanece sem implementação e aguarda autorização explícita.
+- 2026-08-31 · Priscila · Autorização recebida para F1-T02. Implementação bloqueada tecnicamente: documentação funcional de migrations/hooks do MCP indisponível e não há migration existente; nenhuma conta, senha ou permissão foi criada.
