@@ -1,2 +1,5 @@
 .DS_Store
 *.log
+*.mov
+*.mp4
+*.gdoc
