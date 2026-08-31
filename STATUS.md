@@ -8,6 +8,7 @@
 - **Projeto de construção:** Skip `Circuito Elegante` — projectId 54747 — Skip Cloud running.
 - **Versão validada:** Skip `0.0.4`; preview https://circuito-elegante-f07ca--preview.goskip.app; não publicado em produção.
 - **Evidência F1-T01:** catálogo com 80 hotéis, busca por nome/cidade/UF/estado/região ampla/região turística, filtros, detalhes, 404 e CTA de reserva inerte; QA e teste humano aprovados.
-- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; análise realizada, mas bloqueada por matriz de papéis e contas de teste ausentes.
-- **Evidência F1-T02:** projeto Skip e Skip Cloud acessíveis; autenticação nativa `users` existente com acesso ao próprio registro; não há role Admin/Gestor, guarda `/admin`, matriz ou contas de teste.
-- **Gate:** fornecer matriz de papéis e contas de teste, ou decisão formal sobre seus responsáveis; não implementar RBAC por suposição.
+- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; matriz de papéis recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor.
+- **Evidência F1-T02:** projeto Skip e autenticação nativa `users` acessíveis; coleção `users` não possui campo de papel, guarda `/admin`, matriz técnica persistida ou fluxo documentado de convite/ativação sem senha.
+- **Estado F1-T02:** bloqueada por falta de mecanismo seguro de provisionamento de usuários/papéis e fluxo de ativação; nenhuma conta, senha ou permissão foi criada.
+- **Gate:** disponibilizar fluxo seguro de convite/ativação e confirmar mecanismo aprovado para provisionar os quatro usuários sem expor credenciais.
