@@ -12,3 +12,4 @@
 - 2026-08-31 · Manoela · Task F1-T01 concluída: inventário público e catálogo aprovado implementados no Skip 54747, com QA versão 0.0.4 e aprovação humana do preview.
 - 2026-08-31 · SkillMind · F1-T02 analisada: projeto Skip e autenticação nativa acessíveis, mas bloqueada por ausência de matriz de papéis e contas de teste; nenhuma implementação de RBAC realizada.
 - 2026-08-31 · Priscila · Matriz de papéis recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor. F1-T02 continua bloqueada porque não há mecanismo seguro aprovado para provisionar contas e papéis sem expor credenciais; nenhuma alteração foi feita no Skip.
+- 2026-08-31 · Priscila · Decisão revisada: Monica, Rubens, Priscila e Manoela serão usuários comuns, sem Admin ou Gestor. F1-T02 aguarda autorização de implementação do cadastro seguro, sem criação de contas ou credenciais nesta etapa.
