@@ -8,7 +8,7 @@
 - **Projeto de construção:** Skip `Circuito Elegante` — projectId 54747 — Skip Cloud running.
 - **Versão validada:** Skip `0.0.4`; preview https://circuito-elegante-f07ca--preview.goskip.app; não publicado em produção.
 - **Evidência F1-T01:** catálogo com 80 hotéis, busca por nome/cidade/UF/estado/região ampla/região turística, filtros, detalhes, 404 e CTA de reserva inerte; QA e teste humano aprovados.
-- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; matriz de papéis recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor.
-- **Evidência F1-T02:** projeto Skip e autenticação nativa `users` acessíveis; coleção `users` não possui campo de papel, guarda `/admin`, matriz técnica persistida ou fluxo documentado de convite/ativação sem senha.
-- **Estado F1-T02:** bloqueada por falta de mecanismo seguro de provisionamento de usuários/papéis e fluxo de ativação; nenhuma conta, senha ou permissão foi criada.
-- **Gate:** disponibilizar fluxo seguro de convite/ativação e confirmar mecanismo aprovado para provisionar os quatro usuários sem expor credenciais.
+- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; decisão atual: os quatro usuários serão usuários comuns, sem Admin ou Gestor.
+- **Escopo ajustado da F1-T02:** cadastrar Monica Valladão, Rubens Regis, Priscila Bentes e Manoela Poroger como usuários comuns na coleção nativa `users`, sem privilégio administrativo.
+- **Estado da F1-T02:** aguardando autorização explícita para implementação; nenhuma conta, senha ou permissão foi criada.
+- **Gate:** autorizar explicitamente o cadastro dos quatro usuários comuns, usando fluxo seguro de ativação sem expor credenciais.
