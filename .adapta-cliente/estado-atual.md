@@ -8,6 +8,6 @@
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: pendente
-- ultima_acao: análise profunda da F1-T02 realizada; projeto Skip e autenticação nativa acessíveis, mas matriz de papéis e contas de teste não disponíveis
-- proxima_acao: fornecer matriz de papéis e contas de teste, ou indicar responsáveis e acesso aprovado
-- atualizado_em: 2026-08-31T11:56:00-03:00
+- ultima_acao: matriz recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor; inspeção confirmou auth nativa users sem campo de papel, guarda /admin ou fluxo seguro de convite/ativação
+- proxima_acao: disponibilizar fluxo seguro aprovado para convite/ativação e provisionamento dos quatro usuários sem expor credenciais
+- atualizado_em: 2026-08-31T12:04:00-03:00
