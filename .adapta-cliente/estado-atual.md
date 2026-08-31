@@ -4,10 +4,10 @@
 - champion: Manoela — Sócia
 - spec: 04-fase-atual/specs/spec-1-002-acesso-administrativo.md
 - etapa: bloqueada
-- autorizacao_implementacao: confirmada em 2026-08-31; Priscila autorizou implementar F1-T02 e aprovou provisionamento administrativo sem senha compartilhada, com ativação individual pelo fluxo nativo de definição ou recuperação de senha
+- autorizacao_implementacao: confirmada em 2026-08-31; Priscila confirmou implementar a capacidade administrativa no Skip 54747 com ativação individual sem senha compartilhada; Manoela será Gestor e Monica, Rubens e Priscila usuários comuns
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: pendente
-- ultima_acao: tentativa de implementação autorizada; inspeção confirmou que o MCP não expõe ferramenta administrativa para criar usuários, adicionar papel ou disparar convites, e a coleção users não possui campo de papel
-- proxima_acao: disponibilizar a capacidade administrativa do Skip para alterar a coleção auth e provisionar/ativar contas individualmente
-- atualizado_em: 2026-08-31T12:15:00-03:00
+- ultima_acao: tentativa autorizada; busca de ferramentas confirmou ausência de operação executável para criar migration, alterar coleção auth, adicionar papel Gestor ou provisionar convites/usuários
+- proxima_acao: disponibilizar capacidade administrativa executável do Skip Cloud para schema auth, provisionamento e ativação individual
+- atualizado_em: 2026-08-31T12:18:00-03:00
