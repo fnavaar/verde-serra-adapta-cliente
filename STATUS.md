@@ -8,7 +8,7 @@
 - **Projeto de construção:** Skip `Circuito Elegante` — projectId 54747 — Skip Cloud running.
 - **Versão validada:** Skip `0.0.4`; preview https://circuito-elegante-f07ca--preview.goskip.app; não publicado em produção.
 - **Evidência F1-T01:** catálogo com 80 hotéis, busca por nome/cidade/UF/estado/região ampla/região turística, filtros, detalhes, 404 e CTA de reserva inerte; QA e teste humano aprovados.
-- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; matriz atualizada: Manoela Poroger = Gestor; Monica Valladão, Rubens Regis e Priscila Bentes = usuários comuns.
-- **Escopo ajustado da F1-T02:** definir o acesso de quatro pessoas, com Manoela como Gestor e os demais sem Admin/Gestor, conforme decisão mais recente.
-- **Estado da F1-T02:** aguardando autorização explícita para implementação; nenhuma conta, senha ou permissão foi criada.
-- **Gate:** autorizar explicitamente a implementação do acesso definido, usando fluxo seguro de ativação sem expor credenciais.
+- **Próxima task:** F1-T02 — Confirmar Skip/RBAC; decisão vigente: Manoela Poroger = Gestor; Monica Valladão, Rubens Regis e Priscila Bentes = usuários comuns.
+- **Escopo F1-T02:** implementar o acesso definido na coleção nativa `users`, com Manoela como Gestor e sem Admin para os demais.
+- **Estado F1-T02:** bloqueada após autorização: não há migration existente e a documentação oficial de migrations/hooks do MCP está indisponível por erro de parâmetros; não foi possível comprovar sintaxe segura para campo de papel, provisionamento ou convite.
+- **Gate:** disponibilizar documentação funcional do mecanismo de migrations/hooks ou um fluxo seguro aprovado de provisionamento/ativação; não criar contas, senhas ou permissões por suposição.
