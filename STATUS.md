@@ -5,5 +5,6 @@
 - **Gate:** autorização explícita para uma única task; prova e teste humano antes de avançar.
 - **Fora desta fase:** Omni, reservas integradas, e-mail, checkout/pagamento e dados reais.
 - **Pré-condição do inventário:** atendida — todos os hotéis compráveis no site são escopo; Manoela aprovou o conteúdo hoje; textos e imagens pertencem ao Circuito Elegante.
-- **Estado da task:** aguardando autorização explícita para implementar; nenhuma implementação realizada.
-- **Próxima ação:** autorizar explicitamente a implementação da F1-T01.
+- **Projeto de construção:** Skip `Circuito Elegante` — projectId 54747 — Skip Cloud running.
+- **Estado da task:** implementando somente F1-T01 no projeto Skip.
+- **Próxima ação:** inspecionar a árvore inicial do Skip e implementar o catálogo aprovado.
