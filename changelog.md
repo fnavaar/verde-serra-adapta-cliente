@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-09-11
+- SkillMind · Reavaliação do bloqueio de F1-T02: o MCP do Skip Cloud agora expõe migration executável (skip_file_write em `pocketbase/migrations/` + skip_project_apply_changes) e SMTP configurável (skip_cloud_configure_smtp), que eram os dois bloqueios técnicos de 2026-08-31. Nenhum arquivo do Skip foi alterado nesta reavaliação; estado atualizado para reapresentar o plano e aguardar autorização explícita.
+
 ## 2026-08-31
 - Criada a pasta operacional externa para a Fase 1, após handoff validado.
 - Incluídas tasks e SPECs da fase atual; nenhuma implementação, repositório, push ou publicação foi realizada.
