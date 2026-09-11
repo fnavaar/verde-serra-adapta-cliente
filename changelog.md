@@ -12,6 +12,7 @@
   - Primeira tentativa (versão 0.0.6) falhou no QA: o campo `role` já existia com valores `guest|host` e o seed foi rejeitado; corrigido no lugar conforme orientação da plataforma, sem criar migrations duplicadas.
 - Pendência conhecida: e-mails saem pelo relay compartilhado (`noreply@mail.goskip.dev`); validar entrega/caixa de spam no teste humano.
 - 2026-09-11 · Priscila · DEBUG task F1-T02: sintoma "cliquei em entrar e nada aconteceu" → causa raiz demonstrada: os 6 arquivos de frontend da versão 0.0.7 não persistiram na árvore do Skip (só as migrations sobreviveram; `/login` respondia 404 e o botão Entrar era inerte) → corrigido: arquivos reescritos e QA 0.0.8 verde; navegação Entrar → /login verificada no preview com screenshot (`artifacts/f1-t02-login-funcionando.png`). Voltou a aguardando_teste_humano.
+- 2026-09-11 · Priscila · EXCEÇÃO autorizada pelo owner: em vez do e-mail de ativação nesta rodada, senha direta definida APENAS para a conta de teste da própria owner (priscila.bentes@) via migration 0005 com segredo temporário F1T02_TEMP_SENHA — valor nunca versionado, segredo apagado imediatamente após o apply (Skip 0.0.9, QA verde). Login verificado por API: token emitido, papel `usuario`, conta verificada. As demais contas continuam sem senha definida; ativação individual permanece o fluxo padrão quando autorizado.
 
 ## 2026-08-31
 - Criada a pasta operacional externa para a Fase 1, após handoff validado.
