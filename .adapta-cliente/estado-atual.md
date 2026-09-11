@@ -8,6 +8,6 @@
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: pendente
-- ultima_acao: capacidade administrativa procurada após confirmação final; não há ferramenta MCP executável para migration, schema auth, papel Gestor, provisionamento ou convite; nenhum arquivo do Skip foi alterado
-- proxima_acao: disponibilizar capacidade administrativa executável do Skip Cloud para schema auth, provisionamento e ativação individual
-- atualizado_em: 2026-08-31T12:20:00-03:00
+- ultima_acao: reavaliação do bloqueio em 2026-09-11; as ferramentas MCP do Skip Cloud passaram a expor migration executável (skip_file_write + skip_project_apply_changes) e SMTP configurável (skip_cloud_configure_smtp); nenhum arquivo do Skip foi alterado nesta reavaliação
+- proxima_acao: reapresentar o plano de F1-T02 e aguardar autorização explícita de implementação em nova mensagem
+- atualizado_em: 2026-09-11T14:50:00-03:00
