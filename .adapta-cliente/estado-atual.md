@@ -3,11 +3,11 @@
 - task_id: F1-T04
 - champion: Manoela — Sócia
 - spec: 04_fase-atual/specs/spec-1-001-catalogo-publico.md
-- etapa: aguardando_autorizacao
-- autorizacao_implementacao: ausente (análise apresentada; aguardando confirmação em nova mensagem)
+- etapa: implementando
+- autorizacao_implementacao: confirmada em 2026-09-11 15:29; Priscila Bentes: "Pode implementar" (após relatório de análise da F1-T04)
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-09-11-1515-frontend-qa-skip.md
-- ultima_acao: análise profunda de F1-T04 concluída — inventário aprovado (F1-T01) cobre os critérios de conteúdo; estado atual do catálogo inspecionado no Skip 54747 (80 hotéis em dados estáticos, filtros, detalhe, 404 e CTA inerte já presentes); recorte definido como migração do catálogo para coleção nativa com status de aprovação
-- proxima_acao: aguardar autorização explícita para implementar
-- atualizado_em: 2026-09-11T15:26:00-03:00
+- ultima_acao: autorização registrada; início da implementação — migration da coleção hoteis (status aprovado/arquivado, leitura pública só do aprovado), seed dos 80 hotéis aprovados, serviço e frontend lendo da coleção
+- proxima_acao: implementar o menor recorte completo e rodar o QA do Skip
+- atualizado_em: 2026-09-11T15:29:00-03:00
