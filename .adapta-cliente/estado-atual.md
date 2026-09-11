@@ -6,8 +6,8 @@
 - etapa: aguardando_teste_humano
 - autorizacao_implementacao: confirmada em 2026-09-11 14:49; Priscila Bentes: "Pode implementar o plano da F1-T02" (após reapresentação do plano com bloqueio reavaliado)
 - teste_humano: pendente
-- verificacao_automatica: passou — Skip QA 0.0.7 (setup/static/build/test/integrations ok); migrations 0003_add_role_to_users e 0004_seed_team_users aplicadas; campo role (gestor|usuario, required) confirmado na coleção users; createRule/deleteRule null (só superusuário); template de e-mail de definição de senha configurado
+- verificacao_automatica: passou — Skip QA 0.0.8 (setup/static/build/test/integrations ok); falha relatada pela champion ("cliquei em entrar e nada aconteceu") reproduzida, causa raiz demonstrada (arquivos de frontend da 0.0.7 não persistiram na árvore do Skip; só as migrations sobreviveram) e corrigida; navegação Entrar → /login verificada no preview com screenshot
 - aprendizado: pendente
-- ultima_acao: implementação concluída no Skip 54747 versão 0.0.7 — migrations de papel/contas, hook de proteção de papel, /admin com guarda de rota, /login, /recuperar-senha, logout no cabeçalho; primeira tentativa (0.0.6) falhou por valores do campo select e foi corrigida no lugar
-- proxima_acao: aguardar teste humano da champion no preview antes de qualquer conclusão
-- atualizado_em: 2026-09-11T14:58:00-03:00
+- ultima_acao: debug concluído — 6 arquivos de frontend reescritos no Skip e QA 0.0.8 verde; prova observável: clique em "Entrar" navega para /login com formulário funcional
+- proxima_acao: aguardar novo teste humano da champion no preview antes de qualquer conclusão
+- atualizado_em: 2026-09-11T15:02:00-03:00
