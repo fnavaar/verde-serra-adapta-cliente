@@ -2,6 +2,15 @@
 
 ## 2026-09-11
 - SkillMind · Reavaliação do bloqueio de F1-T02: o MCP do Skip Cloud agora expõe migration executável (skip_file_write em `pocketbase/migrations/` + skip_project_apply_changes) e SMTP configurável (skip_cloud_configure_smtp), que eram os dois bloqueios técnicos de 2026-08-31. Nenhum arquivo do Skip foi alterado nesta reavaliação; estado atualizado para reapresentar o plano e aguardar autorização explícita.
+- Priscila · Autorização explícita recebida em nova mensagem para implementar o plano da F1-T02.
+- F1-T02 implementada tecnicamente no Skip 54747 versão 0.0.7 (QA completo: setup, análise estática, build, testes e integrações ok):
+  - Migration 0003: campo `role` (select `gestor`|`usuario`, obrigatório) na coleção auth; regras — leitura só do próprio registro; criação/exclusão apenas por superusuário (sem cadastro público).
+  - Migration 0004: provisionamento idempotente das 4 contas da matriz final (Manoela Poroger = gestor; Monica Valladão, Rubens Regis, Priscila Bentes = usuario), verificadas, sem senha compartilhada — ativação individual pelo fluxo nativo de definição de senha.
+  - Hook `users_protect_role`: impede que um usuário autenticado altere o próprio papel pela API (só superusuário).
+  - Frontend: `/admin` com guarda de rota (negar por padrão — visitante vai para /login, usuário comum vê "Acesso restrito"), `/login`, `/recuperar-senha` (solicitar link e definir senha com token), logout no cabeçalho e link "Admin" visível apenas ao Gestor.
+  - Template de e-mail de definição/recuperação de senha em português, com marca Circuito Elegante e link nativo `{RESET_URL}`.
+  - Primeira tentativa (versão 0.0.6) falhou no QA: o campo `role` já existia com valores `guest|host` e o seed foi rejeitado; corrigido no lugar conforme orientação da plataforma, sem criar migrations duplicadas.
+- Pendência conhecida: e-mails saem pelo relay compartilhado (`noreply@mail.goskip.dev`); validar entrega/caixa de spam no teste humano.
 
 ## 2026-08-31
 - Criada a pasta operacional externa para a Fase 1, após handoff validado.
