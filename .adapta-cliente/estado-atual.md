@@ -1,13 +1,13 @@
 # Estado atual — Adapta Cliente
 
-- task_id: F1-T03
+- task_id: F1-T04
 - champion: Manoela — Sócia
-- spec: 04-fase-atual/specs/spec-1-004-baseline-metrica.md
-- etapa: bloqueada
-- autorizacao_implementacao: ausente (task bloqueada antes do gate de autorização)
+- spec: 04_fase-atual/specs/spec-1-001-catalogo-publico.md
+- etapa: aguardando_autorizacao
+- autorizacao_implementacao: ausente (análise apresentada; aguardando confirmação em nova mensagem)
 - teste_humano: pendente
 - verificacao_automatica: pendente
 - aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-09-11-1515-frontend-qa-skip.md
-- ultima_acao: análise da SPEC-1-004 concluída; fonte identificada como OmniBee (informado por Priscila em 2026-09-11 15:22), sem API/credenciais/acesso autorizado; bloqueio registrado no changelog (commit 552572a)
-- proxima_acao: aguardar decisão do cliente sobre obtenção do acesso OmniBee (contrato/credenciais/sandbox) — resolução é de negócio, não técnica
-- atualizado_em: 2026-09-11T15:23:00-03:00
+- ultima_acao: análise profunda de F1-T04 concluída — inventário aprovado (F1-T01) cobre os critérios de conteúdo; estado atual do catálogo inspecionado no Skip 54747 (80 hotéis em dados estáticos, filtros, detalhe, 404 e CTA inerte já presentes); recorte definido como migração do catálogo para coleção nativa com status de aprovação
+- proxima_acao: aguardar autorização explícita para implementar
+- atualizado_em: 2026-09-11T15:26:00-03:00
