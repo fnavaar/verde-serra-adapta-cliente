@@ -11,6 +11,7 @@
   - Template de e-mail de definição/recuperação de senha em português, com marca Circuito Elegante e link nativo `{RESET_URL}`.
   - Primeira tentativa (versão 0.0.6) falhou no QA: o campo `role` já existia com valores `guest|host` e o seed foi rejeitado; corrigido no lugar conforme orientação da plataforma, sem criar migrations duplicadas.
 - Pendência conhecida: e-mails saem pelo relay compartilhado (`noreply@mail.goskip.dev`); validar entrega/caixa de spam no teste humano.
+- 2026-09-11 · Priscila · DEBUG task F1-T02: sintoma "cliquei em entrar e nada aconteceu" → causa raiz demonstrada: os 6 arquivos de frontend da versão 0.0.7 não persistiram na árvore do Skip (só as migrations sobreviveram; `/login` respondia 404 e o botão Entrar era inerte) → corrigido: arquivos reescritos e QA 0.0.8 verde; navegação Entrar → /login verificada no preview com screenshot (`artifacts/f1-t02-login-funcionando.png`). Voltou a aguardando_teste_humano.
 
 ## 2026-08-31
 - Criada a pasta operacional externa para a Fase 1, após handoff validado.
@@ -20,7 +21,7 @@
 - F1-T01 aguarda autorização explícita para implementação; nenhuma implementação foi realizada.
 - Projeto Skip `Circuito Elegante` criado com projectId 54747 e Skip Cloud em execução; F1-T01 autorizada e iniciada no projeto.
 - F1-T01 implementada tecnicamente no Skip versão 0.0.2: catálogo público com 80 hotéis, busca, filtros, detalhes, 404 e CTA de reserva inerte. QA e preview passaram; aguardando teste humano de Manoela.
-- Ajuste da F1-T01 implementado no Skip versão 0.0.3: busca por cidade, UF/estado, região ampla e regiões turísticas. Preview validado com `Serra Gaúcha`, `Serra Fluminense`, `RS` e `São Paulo`; QA passou; aguardando teste humano de Manoela.
+- Ajuste da F1-T01 implementada no Skip versão 0.0.3: busca por cidade, UF/estado, região ampla e regiões turísticas. Preview validado com `Serra Gaúcha`, `Serra Fluminense`, `RS` e `São Paulo`; QA passou; aguardando teste humano de Manoela.
 - 2026-08-31 · Manoela · Task F1-T01 concluída: inventário público e catálogo aprovado implementados no Skip 54747, com QA versão 0.0.4 e aprovação humana do preview.
 - 2026-08-31 · SkillMind · F1-T02 analisada: projeto Skip e autenticação nativa acessíveis, mas bloqueada por ausência de matriz de papéis e contas de teste; nenhuma implementação de RBAC realizada.
 - 2026-08-31 · Priscila · Matriz de papéis recebida: Monica e Manoela = Admin; Rubens e Priscila = Gestor. F1-T02 continua bloqueada porque não há mecanismo seguro aprovado para provisionar contas e papéis sem expor credenciais; nenhuma alteração foi feita no Skip.
