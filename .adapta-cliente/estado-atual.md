@@ -1,13 +1,13 @@
 # Estado atual — Adapta Cliente
 
-- task_id: F1-T02
+- task_id: nenhuma
 - champion: Manoela — Sócia
-- spec: 04-fase-atual/specs/spec-1-002-acesso-administrativo.md
-- etapa: aguardando_teste_humano
-- autorizacao_implementacao: confirmada em 2026-09-11 14:49; Priscila Bentes: "Pode implementar o plano da F1-T02" (após reapresentação do plano com bloqueio reavaliado)
-- teste_humano: pendente
-- verificacao_automatica: passou — Skip QA 0.0.8 (setup/static/build/test/integrations ok); falha relatada pela champion ("cliquei em entrar e nada aconteceu") reproduzida, causa raiz demonstrada (arquivos de frontend da 0.0.7 não persistiram na árvore do Skip; só as migrations sobreviveram) e corrigida; navegação Entrar → /login verificada no preview com screenshot
-- aprendizado: pendente
-- ultima_acao: debug concluído — 6 arquivos de frontend reescritos no Skip e QA 0.0.8 verde; prova observável: clique em "Entrar" navega para /login com formulário funcional
-- proxima_acao: aguardar novo teste humano da champion no preview antes de qualquer conclusão
-- atualizado_em: 2026-09-11T15:02:00-03:00
+- spec: nenhuma
+- etapa: sem_task
+- autorizacao_implementacao: n/a (F1-T02 autorizada em 2026-09-11 14:49 por Priscila Bentes e concluída após teste humano confirmado)
+- teste_humano: aprovado em 2026-09-11 15:16; Priscila Bentes: "Executei e consegui finalizar" (login OK, acesso restrito OK, Gestor OK, logout OK)
+- verificacao_automatica: passou — QA Skip 0.0.12 verde; login do Gestor provado por API (token, papel gestor); senha errada rejeitada (400); listagem sem token vazia (negação por padrão); hook reverte alteração de papel; segredos temporários apagados (verificado)
+- aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-09-11-1515-frontend-qa-skip.md
+- ultima_acao: F1-T02 concluída — fase.md, STATUS.md, changelog, controle de aprendizado e estado atualizados no GitHub
+- proxima_acao: aguardar novo pedido do champion para selecionar a próxima task (F1-T03 é a candidata; dono: Gestor; pré-condição: fonte autorizada)
+- atualizado_em: 2026-09-11T15:20:00-03:00
